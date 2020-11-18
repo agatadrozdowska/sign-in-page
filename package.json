@@ -1,0 +1,38 @@
+{
+  "name": "sign-in-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:dev": "webpack -d --watch",
+    "start": "node server/index.js",
+    "start:dev": "nodemon server/index.js -w server -w database-mysql",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agatadrozdowska/sign-in-page.git"
+  },
+  "author": "Agata Drozdowska",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agatadrozdowska/sign-in-page/issues"
+  },
+  "homepage": "https://github.com/agatadrozdowska/sign-in-page#readme",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "axios": "^0.20.0",
+    "babel-loader": "^8.1.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
